@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@100&display=swap');
 
 *{
 	margin: 0 auto;
@@ -73,13 +75,35 @@ header{
 .div-tarja{
 	max-width: 100%;
 	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 
 }
 
-.div-tarja audio{
+.div-audio{
+	padding: 10px;
+
+}
+
+
+.div-h3{
 	color: white;
-	
+	padding: 10px;
+
 }
+
+h2{
+	font-family: 'Ysabeau', sans-serif;
+	color: white;
+}
+
+p{
+	font-family: 'Ysabeau', sans-serif;
+	color: white;
+}
+
 
 /**/
 
